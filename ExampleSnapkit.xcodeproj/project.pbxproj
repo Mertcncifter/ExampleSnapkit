@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		C57552B52911991C00CBB4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552B42911991C00CBB4E3 /* AppDelegate.swift */; };
 		C57552B72911991C00CBB4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552B62911991C00CBB4E3 /* SceneDelegate.swift */; };
-		C57552B92911991C00CBB4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552B82911991C00CBB4E3 /* ViewController.swift */; };
-		C57552BC2911991C00CBB4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57552BA2911991C00CBB4E3 /* Main.storyboard */; };
 		C57552BE2911991C00CBB4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57552BD2911991C00CBB4E3 /* Assets.xcassets */; };
 		C57552C12911991C00CBB4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57552BF2911991C00CBB4E3 /* LaunchScreen.storyboard */; };
+		C57552D329119B9F00CBB4E3 /* RickyMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552D229119B9F00CBB4E3 /* RickyMortyViewController.swift */; };
+		C57552DA2911A29A00CBB4E3 /* RickyMortyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552D92911A29A00CBB4E3 /* RickyMortyModel.swift */; };
+		C57552DC2911A56700CBB4E3 /* RickyMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552DB2911A56700CBB4E3 /* RickyMortyService.swift */; };
+		C57552DE2911A9B600CBB4E3 /* RickyMortyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57552DD2911A9B600CBB4E3 /* RickyMortyViewModel.swift */; };
+		C800A5C2A8EECFDAE9FB553E /* Pods_ExampleSnapkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 594D039725880BA0AB4A739D /* Pods_ExampleSnapkit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51CEEF021C05C8B71FFAD5A1 /* Pods-ExampleSnapkit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleSnapkit.release.xcconfig"; path = "Target Support Files/Pods-ExampleSnapkit/Pods-ExampleSnapkit.release.xcconfig"; sourceTree = "<group>"; };
+		594D039725880BA0AB4A739D /* Pods_ExampleSnapkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleSnapkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57552B12911991C00CBB4E3 /* ExampleSnapkit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleSnapkit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57552B42911991C00CBB4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57552B62911991C00CBB4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C57552B82911991C00CBB4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C57552BB2911991C00CBB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C57552BD2911991C00CBB4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C57552C02911991C00CBB4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C57552C22911991C00CBB4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57552D229119B9F00CBB4E3 /* RickyMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewController.swift; sourceTree = "<group>"; };
+		C57552D92911A29A00CBB4E3 /* RickyMortyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyModel.swift; sourceTree = "<group>"; };
+		C57552DB2911A56700CBB4E3 /* RickyMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyService.swift; sourceTree = "<group>"; };
+		C57552DD2911A9B600CBB4E3 /* RickyMortyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewModel.swift; sourceTree = "<group>"; };
+		E06A734564FC2478CB50CC31 /* Pods-ExampleSnapkit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleSnapkit.debug.xcconfig"; path = "Target Support Files/Pods-ExampleSnapkit/Pods-ExampleSnapkit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C800A5C2A8EECFDAE9FB553E /* Pods_ExampleSnapkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168AFD1B418376F281EDE56E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06A734564FC2478CB50CC31 /* Pods-ExampleSnapkit.debug.xcconfig */,
+				51CEEF021C05C8B71FFAD5A1 /* Pods-ExampleSnapkit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AEE41377D75B4AD869A2EFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				594D039725880BA0AB4A739D /* Pods_ExampleSnapkit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C57552A82911991C00CBB4E3 = {
 			isa = PBXGroup;
 			children = (
 				C57552B32911991C00CBB4E3 /* ExampleSnapkit */,
 				C57552B22911991C00CBB4E3 /* Products */,
+				168AFD1B418376F281EDE56E /* Pods */,
+				AEE41377D75B4AD869A2EFFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,65 @@
 		C57552B32911991C00CBB4E3 /* ExampleSnapkit */ = {
 			isa = PBXGroup;
 			children = (
-				C57552B42911991C00CBB4E3 /* AppDelegate.swift */,
-				C57552B62911991C00CBB4E3 /* SceneDelegate.swift */,
-				C57552B82911991C00CBB4E3 /* ViewController.swift */,
-				C57552BA2911991C00CBB4E3 /* Main.storyboard */,
+				C57552C82911992800CBB4E3 /* App */,
+				C57552CC29119A6100CBB4E3 /* Features */,
 				C57552BD2911991C00CBB4E3 /* Assets.xcassets */,
 				C57552BF2911991C00CBB4E3 /* LaunchScreen.storyboard */,
 				C57552C22911991C00CBB4E3 /* Info.plist */,
 			);
 			path = ExampleSnapkit;
+			sourceTree = "<group>";
+		};
+		C57552C82911992800CBB4E3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C57552B42911991C00CBB4E3 /* AppDelegate.swift */,
+				C57552B62911991C00CBB4E3 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C57552CC29119A6100CBB4E3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				C57552D029119AAC00CBB4E3 /* Service */,
+				C57552CF29119AAA00CBB4E3 /* Model */,
+				C57552CE29119AA700CBB4E3 /* ViewModel */,
+				C57552CD29119AA500CBB4E3 /* View */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		C57552CD29119AA500CBB4E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C57552D229119B9F00CBB4E3 /* RickyMortyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C57552CE29119AA700CBB4E3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C57552DD2911A9B600CBB4E3 /* RickyMortyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C57552CF29119AAA00CBB4E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C57552D92911A29A00CBB4E3 /* RickyMortyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C57552D029119AAC00CBB4E3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C57552DB2911A56700CBB4E3 /* RickyMortyService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C57552C52911991C00CBB4E3 /* Build configuration list for PBXNativeTarget "ExampleSnapkit" */;
 			buildPhases = (
+				E32DAA231CAC5246B653B96E /* [CP] Check Pods Manifest.lock */,
 				C57552AD2911991C00CBB4E3 /* Sources */,
 				C57552AE2911991C00CBB4E3 /* Frameworks */,
 				C57552AF2911991C00CBB4E3 /* Resources */,
+				EAC6E3216D5EA0CBABF41CCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +207,70 @@
 			files = (
 				C57552C12911991C00CBB4E3 /* LaunchScreen.storyboard in Resources */,
 				C57552BE2911991C00CBB4E3 /* Assets.xcassets in Resources */,
-				C57552BC2911991C00CBB4E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E32DAA231CAC5246B653B96E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleSnapkit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC6E3216D5EA0CBABF41CCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleSnapkit/Pods-ExampleSnapkit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleSnapkit/Pods-ExampleSnapkit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleSnapkit/Pods-ExampleSnapkit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C57552AD2911991C00CBB4E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C57552B92911991C00CBB4E3 /* ViewController.swift in Sources */,
 				C57552B52911991C00CBB4E3 /* AppDelegate.swift in Sources */,
+				C57552DE2911A9B600CBB4E3 /* RickyMortyViewModel.swift in Sources */,
+				C57552D329119B9F00CBB4E3 /* RickyMortyViewController.swift in Sources */,
+				C57552DA2911A29A00CBB4E3 /* RickyMortyModel.swift in Sources */,
 				C57552B72911991C00CBB4E3 /* SceneDelegate.swift in Sources */,
+				C57552DC2911A56700CBB4E3 /* RickyMortyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C57552BA2911991C00CBB4E3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C57552BB2911991C00CBB4E3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C57552BF2911991C00CBB4E3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +400,7 @@
 		};
 		C57552C62911991C00CBB4E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06A734564FC2478CB50CC31 /* Pods-ExampleSnapkit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +411,6 @@
 				INFOPLIST_FILE = ExampleSnapkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +428,7 @@
 		};
 		C57552C72911991C00CBB4E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51CEEF021C05C8B71FFAD5A1 /* Pods-ExampleSnapkit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +439,6 @@
 				INFOPLIST_FILE = ExampleSnapkit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

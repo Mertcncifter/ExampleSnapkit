@@ -14,6 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let appearanceNav = UINavigationBarAppearance()
+        appearanceNav.configureWithOpaqueBackground()
+        UINavigationBar.appearance().standardAppearance = appearanceNav
+        UINavigationBar.appearance().scrollEdgeAppearance = appearanceNav
+        
         return true
     }
 
